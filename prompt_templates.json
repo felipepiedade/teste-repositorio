@@ -1,0 +1,80 @@
+{
+  "templates": [
+    {
+      "nome": "Explicação Técnica Detalhada",
+      "categoria": "técnico",
+      "template": "# TAREFA\nExplique {conceito} de forma {nível_profundidade}.\n\n# CONTEXTO\n{contexto}\n\n# FORMATO\n- Comece com uma definição clara e concisa\n- Explique os princípios fundamentais\n- Forneça exemplos práticos\n- Compare com conceitos familiares quando possível\n- Termine com aplicações e implicações\n\n# PERSONA\nVocê é um especialista em {área} com experiência em comunicar conceitos complexos de forma acessível.",
+      "exemplo_preenchido": {
+        "conceito": "algoritmos de aprendizado por reforço",
+        "nível_profundidade": "intermediária",
+        "contexto": "Para alguém que já tem conhecimentos básicos de machine learning, mas nunca trabalhou com RL",
+        "área": "inteligência artificial"
+      }
+    },
+    {
+      "nome": "Análise Crítica",
+      "categoria": "análise",
+      "template": "# OBJETIVO\nAnalise criticamente {objeto_análise} considerando {aspectos}.\n\n# ABORDAGEM\n1. Apresente um resumo objetivo do item analisado\n2. Avalie seus pontos fortes detalhadamente\n3. Identifique limitações e pontos fracos\n4. Compare com alternativas relevantes\n5. Ofereça recomendações construtivas\n\n# CRITÉRIOS\n- Fundamentação: Base suas conclusões em evidências\n- Imparcialidade: Considere múltiplas perspectivas\n- Profundidade: Vá além das observações superficiais\n- Contexto: Considere o ambiente, história e propósito\n\n# PERSONA\nVocê é um analista {tipo_analista} com experiência em avaliar {área_expertise}.",
+      "exemplo_preenchido": {
+        "objeto_análise": "o mais recente framework de desenvolvimento web",
+        "aspectos": "performance, curva de aprendizado, comunidade e documentação",
+        "tipo_analista": "técnico",
+        "área_expertise": "tecnologias de desenvolvimento"
+      }
+    },
+    {
+      "nome": "Criação de Conteúdo",
+      "categoria": "criativo",
+      "template": "# TAREFA\nCrie {tipo_conteúdo} sobre {tema} com {estilo} e {tom}.\n\n# PARÂMETROS\n- Extensão: {extensão}\n- Audiência: {audiência}\n- Objetivo: {objetivo}\n- Elementos a incluir: {elementos}\n\n# ESTRUTURA\n{estrutura}\n\n# RESTRIÇÕES\n{restrições}\n\n# PERSONA\nVocê é um criador de conteúdo especializado em {especialidade} com habilidade para cativar audiências através de {qualidade_distintiva}.",
+      "exemplo_preenchido": {
+        "tipo_conteúdo": "um artigo de blog",
+        "tema": "produtividade no trabalho remoto",
+        "estilo": "prático e acionável",
+        "tom": "inspirador mas realista",
+        "extensão": "1200-1500 palavras",
+        "audiência": "profissionais de tecnologia na faixa dos 25-40 anos",
+        "objetivo": "ajudar leitores a estabelecer rotinas eficazes trabalhando de casa",
+        "elementos": "estudos de caso, técnicas comprovadas, ferramentas recomendadas",
+        "estrutura": "introdução, 5 técnicas principais (cada uma com exemplo prático), conclusão com plano de ação",
+        "restrições": "evite soluções genéricas como 'estabeleça uma rotina'; seja específico",
+        "especialidade": "produtividade e bem-estar no trabalho",
+        "qualidade_distintiva": "sua capacidade de transformar pesquisa científica em conselhos práticos"
+      }
+    },
+    {
+      "nome": "Planejamento Estratégico",
+      "categoria": "instrução",
+      "template": "# TAREFA\nDesenvolva um plano estratégico para {objetivo} considerando {restrições}.\n\n# CONTEXTO\n{contexto}\n\n# REQUISITOS\n- Horizonte de tempo: {prazo}\n- Recursos disponíveis: {recursos}\n- Métricas de sucesso: {métricas}\n\n# FORMATO\n1. Visão geral e objetivos principais\n2. Análise da situação atual\n3. Estratégias recomendadas (priorizadas)\n4. Plano de implementação detalhado\n5. Cronograma com marcos\n6. Orçamento estimado\n7. Análise de riscos e planos de contingência\n8. Sistema de monitoramento e avaliação\n\n# PERSONA\nVocê é um consultor estratégico com mais de 15 anos de experiência em {indústria} ajudando organizações a {conquistas}.",
+      "exemplo_preenchido": {
+        "objetivo": "introduzir um novo produto digital no mercado brasileiro",
+        "restrições": "orçamento limitado e equipe pequena",
+        "contexto": "Startup fintech com produto bem-sucedido nos EUA querendo expandir para o Brasil",
+        "prazo": "12 meses para lançamento completo",
+        "recursos": "3 desenvolvedores, 1 designer, 1 gerente de produto, orçamento de R$300.000",
+        "métricas": "10.000 usuários ativos mensais após 6 meses de lançamento, taxa de retenção de 40%",
+        "indústria": "fintech",
+        "conquistas": "alcançar crescimento exponencial mesmo com recursos limitados"
+      }
+    },
+    {
+      "nome": "Estudo Comparativo",
+      "categoria": "pesquisa",
+      "template": "# OBJETIVO\nRealizar um estudo comparativo detalhado entre {opções} em relação a {critérios}.\n\n# METODOLOGIA\n1. Estabelecer critérios claros de comparação\n2. Pesquisar e documentar informações para cada opção\n3. Avaliar cada opção objetivamente conforme os critérios\n4. Identificar pontos fortes e fracos relativos\n5. Fornecer recomendações contextualizadas\n\n# ESTRUTURA\n- Introdução ao propósito da comparação\n- Metodologia e critérios detalhados\n- Análise individual de cada opção\n- Tabela comparativa para visualização\n- Análise aprofundada por critério\n- Recomendações personalizadas\n- Limitações da análise\n\n# PERSONA\nVocê é um pesquisador meticuloso com experiência em análise comparativa de {área} e capacidade de sintetizar informações complexas em insights acionáveis.",
+      "exemplo_preenchido": {
+        "opções": "as 3 principais plataformas de e-commerce para pequenos negócios",
+        "critérios": "custo, facilidade de uso, flexibilidade, recursos de marketing, suporte e escalabilidade",
+        "área": "soluções tecnológicas para negócios"
+      }
+    }
+  ],
+  "dicas_otimização": [
+    "Seja específico no que deseja - 'Explique o conceito X' é menos eficaz que 'Explique o conceito X para um estudante de graduação em Y'",
+    "Inclua o formato desejado - 'Responda em parágrafos curtos' ou 'Inclua uma tabela comparativa'",
+    "Defina o contexto - 'Considerando que o público tem conhecimento básico de...'",
+    "Estabeleça restrições úteis - 'Use linguagem simples, evitando jargão técnico'",
+    "Solicite raciocínio passo a passo - 'Mostre seu processo de raciocínio ao resolver isso'",
+    "Peça verificação de qualidade - 'Após fornecer sua resposta, indique limitações ou possíveis alternativas'",
+    "Especifique a persona - 'Responda como um especialista em X com experiência em Y'",
+    "Estabeleça múltiplas perspectivas - 'Discuta esta questão de pelo menos três ângulos diferentes'"
+  ]
+}
